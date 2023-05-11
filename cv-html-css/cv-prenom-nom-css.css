@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+
+body {
+    background-image: url(https://cdn.pixabay.com/photo/2021/07/30/07/29/leaves-6508891_1280.jpg) ;
+    background-position: 50%;
+    background-size: contain;
+    font-family: 'Lora', serif;
+}
+
+div {
+  display: flex;
+  align-content: flex-end;
+}
+
+
+.gauche {
+  width: 20%;
+  display: flex;
+  color: #ffffff;
+  background-color: rgb(100 48 37 / 66%);
+  flex-direction: column;
+  margin: 2%;
+}
+
+.droite {
+  width: 70%;
+  display: inline-block;
+  color: #ffffff;
+  background-color: rgb(52 161 139 / 28%);
+  flex-direction: column;
+  margin: 2%;
+}
+
+aside.info1 {
+  list-style-position: inside;
+  padding: 1%;
+  font-size: 140%;
+  background-color: rgb(52 161 139 / 53%);
+}
+
+aside.info {
+  list-style-position: inside;
+  margin: 2%;
+  padding: 1%;
+  font-size: 140%;
+}
+
+article.info {
+  list-style-position: inside;
+  margin: 5%;
+  font-size: 120%;
+}
+
+.intro {
+  width: 100%;
+  padding: auto;
+  text-align: justify;
+  margin:  1% auto 1% auto;
+  display: inline-block;
+  color: #ffffff;
+}
+
+.into {
+  width: auto;
+  display: inline-flex;
+}
+
