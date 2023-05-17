@@ -1,0 +1,34 @@
+.top {
+    width: 50%;
+}
+
+#logo {
+    width: 30%;
+    object-position: right;
+    display: block;
+    margin: 2%;
+}
+.top2 {
+    display: flex;
+    background-color: #34363c;
+}
+.hello {
+    color: white;
+    margin: 2%;
+    background-position: center;
+}
+#gifhello {
+    width: 50%;
+}
+.background {
+    width: 50%;
+}
+.top3 {
+    display: flex;
+}
+.qrcode {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 5%;
+}
