@@ -1,3 +1,7 @@
+body {
+    font-family: 'Space Grotesk', sans-serif;
+}
+
 .top {
     width: 50%;
 }
@@ -16,14 +20,28 @@
     color: white;
     margin: 2%;
     background-position: center;
+    display: flex;
+    font-size: 200%;
 }
 #gifhello {
-    width: 50%;
+    width: 300%;
+    display: flex;
 }
-.background {
+.backgoundright {
+    display: flex;
+    justify-content: flex-end;
+}
+#background {
     width: 50%;
 }
 .top3 {
+    display: flex;
+}
+img#vocal {
+    width: 250%;    
+}
+
+.top10 {
     display: flex;
 }
 .qrcode {
@@ -31,4 +49,11 @@
     flex-direction: column;
     align-items: center;
     margin: 5%;
+}
+h3 {
+    font-size: 300%;
+}
+
+p {
+    font-size: 180%;
 }
