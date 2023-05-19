@@ -1,21 +1,49 @@
 body {
     font-family: 'Space Grotesk', sans-serif;
+    max-width: 100%;
+    overflow-x: hidden;
+
 }
 
 .top {
-    width: 50%;
+    display: flex;
+    width: 100%;
+    background-color: white;
+    justify-content: space-between;
+    position: fixed;
 }
 
 #logo {
-    width: 30%;
+    width: 15%;
     object-position: right;
     display: block;
+    margin: 1%;;
+}
+a {
+    color: black;
+    font-size: 160%;
     margin: 2%;
 }
+ul {
+    width: 100%;
+    position: fixed;
+    left: 30%;
+    top: 4%;
+}
+nav {
+    background-color: white;
+}
+
 .top2 {
     display: flex;
     background-color: #34363c;
+    margin: 2%;
+    padding: 8%;
 }
+img#background {
+    padding: 30%;
+}
+
 .hello {
     color: white;
     margin: 2%;
@@ -27,21 +55,55 @@ body {
     width: 300%;
     display: flex;
 }
-.backgoundright {
-    display: flex;
-    justify-content: flex-end;
-}
-#background {
-    width: 50%;
-}
 .top3 {
     display: flex;
+    background-color: white;
+}
+.vocalimg {
+    display: flex;
+    flex-direction: column;
+    width: 120%;
 }
 img#vocal {
-    width: 250%;    
+    width: 100%;
+    margin: 9%;   
+}
+
+.vocaltxt {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 5%;
+    width: 100%;
+}
+
+.top4 {
+    display: flex;
+    flex-direction: row-reverse;
+    background-color: rgb(88 101 242);
+}
+img#com {
+    width: 150%; 
+}
+.imgcom {
+    display: flex;
+    flex-direction: column;
+    width: 140%;
+    align-items: stretch;
+}
+.txtcom {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 5%;
+    width: 100%;
 }
 
 .top10 {
+    display: flex;
+    background-color: white;
+}
+.log{
     display: flex;
 }
 .qrcode {
@@ -50,10 +112,50 @@ img#vocal {
     align-items: center;
     margin: 5%;
 }
+
+.top11 {
+    display: flex;
+    flex-direction: row-reverse;
+    background-color: rgb(88 101 242);
+}
+img#store {
+    width: 100%; 
+}
+.imgstore {
+    display: flex;
+    flex-direction: column;
+    width: 140%;
+    align-items: stretch;
+}
+.txtsotre {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 5%;
+    width: 90%;
+}
+
+
 h3 {
+    text-align: center;
     font-size: 300%;
 }
 
 p {
     font-size: 180%;
 }
+
+.container {
+    display: flex;
+    opacity: 0;
+    animation: fade-in 5s forwards;
+  }
+  
+  @keyframes fade-in {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
