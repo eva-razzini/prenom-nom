@@ -23,15 +23,22 @@ a {
     color: black;
     font-size: 160%;
     margin: 2%;
+    text-decoration: none;
 }
 ul {
     width: 100%;
     position: fixed;
-    left: 30%;
-    top: 4%;
+    left: 50%;
+    top: 7%;
 }
 nav {
     background-color: white;
+}
+.buttonLarge-3z9xOS {
+    border-radius: 28px;
+    font-size: 20px;
+    padding: 16px 32px;
+    height: 20%;
 }
 
 .top2 {
@@ -39,6 +46,7 @@ nav {
     background-color: #34363c;
     margin: 2%;
     padding: 8%;
+    justify-content: space-between;
 }
 img#background {
     padding: 30%;
@@ -52,7 +60,7 @@ img#background {
     font-size: 200%;
 }
 #gifhello {
-    width: 300%;
+    width: 50%;
     display: flex;
 }
 .top3 {
@@ -66,7 +74,8 @@ img#background {
 }
 img#vocal {
     width: 100%;
-    margin: 9%;   
+    margin: 9%;
+    zoom: 20%;
 }
 
 .vocaltxt {
@@ -139,6 +148,10 @@ img#store {
 h3 {
     text-align: center;
     font-size: 300%;
+}
+
+h2 {
+    width: 300%;
 }
 
 p {
