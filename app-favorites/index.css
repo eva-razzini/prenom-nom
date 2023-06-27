@@ -1,0 +1,15 @@
+.body{
+    background-image: src="image/clipart340385.png";
+}
+#tel {
+    position: absolute;
+    width: 500px;
+}
+#logospo {
+    width: 200px;
+    margin-left: 220px;
+    margin-top: 200px;
+}
+.boxspotif {
+    background-color: #25ce7b;
+}
